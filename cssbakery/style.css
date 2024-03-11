@@ -1,0 +1,374 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    padding: 0 200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100vw;
+    height: 1049px;
+    background-image: url('../photobakery/backgroundimage1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.list {
+    padding-top: 55px;
+    margin-bottom: 71px;
+    width: 850px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header-text-wrap {
+    width: 570px;
+}
+
+.header-link {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.header-title {
+    margin-bottom: 39px;
+
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 70px;
+    font-weight: 200;
+    white-space: pre-wrap;
+}
+
+.header-text {
+    white-space: pre-wrap;
+    line-height: 25.41px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 21px;
+}
+
+.header-button {
+    margin-top: 55px;
+    width: 205px;
+    height: 55px;
+    background-color: #B47B48;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 125px;
+}
+
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 310px;
+}
+
+.card-item:hover {
+    background-color: #EBAD51;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    background-color: #272727;
+}
+
+.card-img {
+    width: 176px;
+    height: 225px;
+}
+
+.price {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 200;
+}
+
+.food-name {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card-button {
+    width: 79px;
+    height: 34px;
+    background-color: #C85312;
+    cursor: pointer;
+    border: none;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.food-title {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 26px;
+    font-weight: 800;
+    line-height: 31px;
+}
+
+.menu {
+    background-color: #202023;
+}
+
+.food-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.food {
+    border: 1px solid #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.food-wrap {
+    width: 328px;
+    height: 250px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+}
+
+.food-name {
+    padding-bottom: 44px;
+}
+
+.food-img {
+    width: 260px;
+    height: 230px;
+}
+
+.main-title {
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77.45px;
+}
+
+.order-button {
+    width: 137px;
+    height: 41px;
+    border: none;
+    border-radius: 20px;
+    background-color: #B47B48;
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 26px;
+    line-height: 31px;
+    font-weight: 800;
+}
+
+.quality-our-bakery {
+    width: 100%;
+    background-position: 50% 100%;
+    background-color: #202023;
+    background-image: url('../photobakery/Quality our bekary.png');
+    background-repeat: no-repeat;
+}
+
+.quality-wrapper {
+    display: flex;
+    height: 1000px;
+    align-items: center;
+}
+
+.quality-wrap {
+    width: calc(33% - 54px);
+    height: 516px;
+    margin: 27px;
+}
+
+.quality-wrap:first-child {
+    align-self: flex-start;
+}
+
+.quality-wrap:nth-child(2) {
+    align-self: center;
+}
+
+.quality-wrap:last-child {
+    align-self: flex-end;
+}
+
+.quality-photo {
+    width: 340px;
+    height: 250px;
+}
+
+.quality-title {
+    text-align: start;
+    color: #FFFFFF;
+    font-family: 'Italiana';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 75.39px;
+}
+
+.quality-text {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.quality-list {
+    background-color: #f2f2f2;
+    width: 292px;
+    height: 198px;
+}
+
+.why-us {
+    background-size: cover;
+    height: 575px;
+    background-image: linear-gradient( to right ,#000000 , rgba(0, 0, 0, 0.50)),
+     url('../photobakery/backgroundimage2.jpg');
+    background-repeat: no-repeat;
+}
+.why-us-wrapper {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.why-us-title {
+    text-align: start;
+    padding-top: 55px;
+    color: #D9D9D9;
+    font-family: 'Italiana';
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 57px;
+    white-space: pre-wrap;
+}
+
+.why-title {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 24px;
+    line-height: 29px;
+}
+.where-how-when {
+    height: 700px;
+    background-color: #202023;
+}
+.where-how-when-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.where-how-when-wrap {
+    display: flex;
+    justify-content: flex-end;
+}
+.social-networks {
+    
+    align-self: center;
+}
+.where {
+    color: #ffffff;
+    font-family: 'Italiana';
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.how-tel {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    text-decoration: none;
+}
+
+.tel {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 24px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+.networks {
+    line-height: 87px;
+    text-decoration: none;
+}
+
+.when-time {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 400;
+    padding-bottom: 49px;
+    text-decoration: none;
+}
+
+.time {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-size: 200;
+    text-decoration: none;
+}
+
+.networks {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 300;
+    font-size: 24px;
+}
+
+.footer-title {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.footer-text {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.footer-desc-title {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-size: 24px;
+    font-weight: 300;
+}
+
+span {
+    color: #ffffff;
+    font-family: 'Inter';
+    font-weight: 100;
+    font-size: 20px;
+}
