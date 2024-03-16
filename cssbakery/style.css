@@ -1,27 +1,28 @@
-* {
+*,
+::before,
+::after {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
 .container {
-    padding: 0 200px;
+    padding: 0 15px;
     margin: 0 auto;
+    width: 1154px;
 }
 
 .header {
-    width: 100vw;
-    height: 1049px;
     background-image: url('../photobakery/backgroundimage1.png');
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 44px;
 }
 
 .list {
     padding-top: 55px;
     margin-bottom: 71px;
-    width: 850px;
     display: flex;
-    justify-content: space-between;
     list-style: none;
 }
 
@@ -30,6 +31,7 @@
 }
 
 .header-link {
+    margin-right: 40px;
     color: #ffffff;
     font-family: 'Inter';
     font-size: 24px;
@@ -39,17 +41,14 @@
 
 .header-title {
     margin-bottom: 39px;
-
     color: #ffffff;
     font-family: 'Inter';
     font-size: 70px;
     font-weight: 200;
-    white-space: pre-wrap;
 }
 
 .header-text {
-    white-space: pre-wrap;
-    line-height: 25.41px;
+    line-height: 150%;
     color: #ffffff;
     font-family: 'Inter';
     font-weight: 300;
@@ -82,6 +81,7 @@
 
 .card-item:hover {
     background-color: #EBAD51;
+    cursor: pointer;
 }
 
 .card-item {
@@ -122,6 +122,7 @@
 }
 
 .food-title {
+    text-align: center;
     color: #ffffff;
     font-family: 'Inter';
     font-size: 26px;
@@ -131,16 +132,21 @@
 
 .menu {
     background-color: #202023;
+    text-align: center;
+    padding-bottom: 73px;
 }
 
 .food-wrapper {
-    width: 100%;
     display: flex;
-    justify-content: space-evenly;
     flex-wrap: wrap;
+    padding: 0 72px;
 }
 
 .food {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     border: 1px solid #FFFFFF;
     margin-bottom: 15px;
 }
@@ -148,8 +154,7 @@
 .food-wrap {
     width: 328px;
     height: 250px;
-    margin-bottom: 100px;
-    margin-right: 200px;
+    margin: 57px 80px;
 }
 
 .food-name {
@@ -157,7 +162,7 @@
 }
 
 .food-img {
-    width: 260px;
+    width: 244px;
     height: 230px;
 }
 
@@ -176,11 +181,16 @@
     border: none;
     border-radius: 20px;
     background-color: #B47B48;
+    cursor: pointer;
     color: #ffffff;
     font-family: 'Inter';
     font-size: 26px;
     line-height: 31px;
     font-weight: 800;
+}
+.order-button:hover {
+    transition: all 2s ease-in-out;
+    border-radius: 50%;
 }
 
 .quality-our-bakery {
@@ -188,6 +198,7 @@
     background-position: 50% 100%;
     background-color: #202023;
     background-image: url('../photobakery/Quality our bekary.png');
+    background-size: 150%;
     background-repeat: no-repeat;
 }
 
@@ -195,12 +206,27 @@
     display: flex;
     height: 1000px;
     align-items: center;
+    position: relative;
 }
 
 .quality-wrap {
     width: calc(33% - 54px);
     height: 516px;
     margin: 27px;
+}
+
+.quality-photo {
+    width: 340px;
+    height: 250px;
+}
+
+.quality-title {
+    position: absolute;
+    right: 10px;
+}
+
+.quality-list-wrap {
+    background-color: gray;
 }
 
 .quality-wrap:first-child {
@@ -213,11 +239,6 @@
 
 .quality-wrap:last-child {
     align-self: flex-end;
-}
-
-.quality-photo {
-    width: 340px;
-    height: 250px;
 }
 
 .quality-title {
@@ -238,7 +259,6 @@
 }
 
 .quality-list {
-    background-color: #f2f2f2;
     width: 292px;
     height: 198px;
 }
@@ -246,16 +266,18 @@
 .why-us {
     background-size: cover;
     height: 575px;
-    background-image: linear-gradient( to right ,#000000 , rgba(0, 0, 0, 0.50)),
-     url('../photobakery/backgroundimage2.jpg');
+    background-image: linear-gradient(to right, #000000, rgba(0, 0, 0, 0.50)),
+        url('../photobakery/backgroundimage2.jpg');
     background-repeat: no-repeat;
 }
+
 .why-us-wrapper {
     height: 300px;
     display: flex;
     justify-content: space-around;
     align-items: end;
 }
+
 .why-us-title {
     text-align: start;
     padding-top: 55px;
@@ -273,10 +295,12 @@
     font-size: 24px;
     line-height: 29px;
 }
+
 .where-how-when {
     height: 700px;
     background-color: #202023;
 }
+
 .where-how-when-wrapper {
     display: flex;
     justify-content: space-between;
@@ -286,11 +310,14 @@
     display: flex;
     justify-content: flex-end;
 }
+
 .social-networks {
-    
     align-self: center;
 }
+
 .where {
+    padding-top: 66px;
+    padding-bottom: 44px;
     color: #ffffff;
     font-family: 'Italiana';
     font-size: 48px;
@@ -314,6 +341,7 @@
     padding-right: 50px;
     text-decoration: none;
 }
+
 .networks {
     line-height: 87px;
     text-decoration: none;
@@ -343,11 +371,42 @@
     font-size: 24px;
 }
 
+.footer {
+    background-color: #202023;
+    width: 100%;
+    height: 351px;
+}
+
+.footer-wrap {
+    height: 351px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.footer-description h1:first-child {
+    margin-bottom: 41px;
+}
+
+.footer-name {
+    width: 24%;
+    flex-basis: calc((100% - 300px) /3);
+}
+
+.footer-description {
+    width: 33%;
+    flex-basis: calc((100% - 300px) /3);
+}
+
 .footer-title {
+    width: 322px;
     color: #ffffff;
     font-family: 'Inter';
     font-size: 40px;
     font-weight: 200;
+    padding-bottom: 16px;
 }
 
 .footer-text {
@@ -358,6 +417,7 @@
 }
 
 .footer-desc-title {
+    width: 143px;
     color: #ffffff;
     font-family: 'Inter';
     font-size: 24px;
