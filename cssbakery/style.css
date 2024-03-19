@@ -252,6 +252,8 @@
 
 .quality-list-wrap {
     background-color: gray;
+    padding-left: 40px;
+    padding-top: 20px;
 }
 
 .quality-list {
