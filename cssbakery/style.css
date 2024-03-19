@@ -188,10 +188,6 @@
     line-height: 31px;
     font-weight: 800;
 }
-.order-button:hover {
-    transition: all 2s ease-in-out;
-    border-radius: 50%;
-}
 
 .quality-our-bakery {
     width: 100%;
@@ -225,10 +221,6 @@
     right: 10px;
 }
 
-.quality-list-wrap {
-    background-color: gray;
-}
-
 .quality-wrap:first-child {
     align-self: flex-start;
 }
@@ -256,6 +248,10 @@
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
+}
+
+.quality-list-wrap {
+    background-color: gray;
 }
 
 .quality-list {
