@@ -88,11 +88,11 @@
     display: flex;
     align-items: center;
     background-color: #272727;
+    height: 100%;
 }
 
 .card-img {
     width: 176px;
-    height: 225px;
 }
 
 .price {
@@ -164,6 +164,7 @@
 .food-img {
     width: 244px;
     height: 230px;
+    object-fit: contain;
 }
 
 .main-title {
@@ -193,14 +194,14 @@
     width: 100%;
     background-position: 50% 100%;
     background-color: #202023;
-    background-image: url('../photobakery/Quality our bekary.png');
+    background-image: url('../photobakery/qualityourbekary.png');
     background-size: 150%;
     background-repeat: no-repeat;
 }
 
 .quality-wrapper {
     display: flex;
-    height: 1000px;
+    height: 800px;
     align-items: center;
     position: relative;
 }
@@ -212,8 +213,7 @@
 }
 
 .quality-photo {
-    width: 340px;
-    height: 250px;
+    width: 100%;
 }
 
 .quality-title {
@@ -257,8 +257,7 @@
 }
 
 .quality-list {
-    width: 292px;
-    height: 198px;
+    padding-bottom: 20px;
 }
 
 .why-us {
@@ -277,14 +276,13 @@
 }
 
 .why-us-title {
-    text-align: start;
+    width: 50%;
     padding-top: 55px;
     color: #D9D9D9;
     font-family: 'Italiana';
     font-weight: 400;
     font-size: 48px;
     line-height: 57px;
-    white-space: pre-wrap;
 }
 
 .why-title {
@@ -376,10 +374,8 @@
 }
 
 .footer-wrap {
-    height: 351px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     flex-direction: row;
     gap: 150px;
 }
