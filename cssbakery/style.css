@@ -195,7 +195,7 @@
     background-position: 50% 100%;
     background-color: #202023;
     background-image: url('../photobakery/qualityourbekary.png');
-    background-size: 150%;
+    background-size: 125%;
     background-repeat: no-repeat;
 }
 
@@ -275,6 +275,15 @@
     align-items: end;
 }
 
+.why {
+    text-align: center;
+    width: 250px;
+}
+
+.why-img {
+    width: 218px;
+}
+
 .why-us-title {
     width: 50%;
     padding-top: 55px;
@@ -290,11 +299,13 @@
     font-family: 'Inter';
     font-size: 24px;
     line-height: 29px;
+    text-align: start;
 }
 
 .where-how-when {
     height: 700px;
     background-color: #202023;
+    padding-bottom: 50px;
 }
 
 .where-how-when-wrapper {
@@ -371,6 +382,7 @@
     background-color: #202023;
     width: 100%;
     height: 351px;
+    padding-top: 62px;
 }
 
 .footer-wrap {
@@ -416,6 +428,11 @@
     font-family: 'Inter';
     font-size: 24px;
     font-weight: 300;
+}
+
+.span-wrap {
+    text-align: center;
+    padding-top: 86px;
 }
 
 span {
