@@ -192,10 +192,9 @@
 
 .quality-our-bakery {
     width: 100%;
-    background-position: 50% 100%;
+    background-position: bottom;
     background-color: #202023;
     background-image: url('../photobakery/qualityourbekary.png');
-    background-size: 125%;
     background-repeat: no-repeat;
 }
 
