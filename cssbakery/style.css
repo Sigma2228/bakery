@@ -400,6 +400,7 @@
 }
 
 .footer-description {
+   
     width: 33%;
     flex-basis: calc((100% - 300px) /3);
 }
@@ -421,6 +422,7 @@
 }
 
 .footer-desc-title {
+    display: inline-block;
     text-decoration: none;
     width: 143px;
     color: #ffffff;
