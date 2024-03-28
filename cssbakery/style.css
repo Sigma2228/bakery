@@ -298,7 +298,6 @@
     font-family: 'Inter';
     font-size: 24px;
     line-height: 29px;
-    text-align: start;
 }
 
 .where-how-when {
@@ -391,7 +390,7 @@
     gap: 150px;
 }
 
-.footer-description h1:first-child {
+.footer-description a:first-child {
     margin-bottom: 41px;
 }
 
@@ -422,6 +421,7 @@
 }
 
 .footer-desc-title {
+    text-decoration: none;
     width: 143px;
     color: #ffffff;
     font-family: 'Inter';
